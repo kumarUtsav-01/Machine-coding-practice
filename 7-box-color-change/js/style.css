@@ -1,0 +1,71 @@
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "block1 block2 block3"
+    "block4 . ."
+    "block5 block6 block7";
+}
+
+.block1 {
+  grid-area: block1;
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.block2 {
+  grid-area: block2;
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.block3 {
+  grid-area: block3;
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.block4 {
+  grid-area: block4;
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.block5 {
+  grid-area: block5;
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.block6 {
+  grid-area: block6;
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.block7 {
+  grid-area: block7;
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid black;
+}

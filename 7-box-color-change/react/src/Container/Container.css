@@ -1,0 +1,12 @@
+.white-container {
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid black;
+}
+
+.green-container {
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid black;
+    background-color: green;
+}

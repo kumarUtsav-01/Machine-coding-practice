@@ -1,0 +1,12 @@
+.itemList {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.itemList_orders {
+    flex: 1;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    margin-block-end: 1rem;
+}

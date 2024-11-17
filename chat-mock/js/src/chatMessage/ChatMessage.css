@@ -1,0 +1,17 @@
+.BOT_chat {
+    background-color: navy;
+    color: white;
+    border-radius: 5%;
+    padding: 1rem;
+    width: fit-content;
+    margin: 1rem;
+}
+
+.USER_chat {
+    background-color: silver;
+    border-radius: 5%;
+    padding: 1rem;
+    width: fit-content;
+    margin: 1rem;
+    margin-left: auto;
+}

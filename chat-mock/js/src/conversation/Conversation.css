@@ -1,0 +1,19 @@
+.conversation_newChat {
+    border: 1px solid black;
+    height: fit-content;
+    width: calc(100% - 2rem);
+    margin-inline: 1rem;
+    margin-block-end: 1rem;
+}
+
+.conversation_container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vh;
+}
+
+.conversation_messages {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-grow: 1;
+}

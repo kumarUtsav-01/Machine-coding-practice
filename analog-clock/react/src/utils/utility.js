@@ -3,12 +3,15 @@ export const calculateAngle = (hour, minute, second, type) => {
   const minuteAngle = minute * 6;
   const hourLocalFormat = hour > 12 ? hour - 12 : hour;
 
-  if (type === "second-hand") {
-    return secondAngle;
-  } else if (type === "minute-hand") {
-    return minuteAngle;
-  } else {
-    return hourLocalFormat * 30 + minuteAngle / 12;
+  switch (type) {
+    case "second-hand":
+      return secondAngle;
+    case "minute-hand":
+      return minuteAngle;
+    case "hour-hand":
+      return hourLocalFormat * 30 + minuteAngle / 12;
+    default:
+      return 0;
   }
 };
 

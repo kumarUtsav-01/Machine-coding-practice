@@ -1,6 +1,7 @@
+import React from "react";
 import ClockHand from "./ClockHand";
 
-const ClockHands = () => {
+const ClockHands = React.memo(() => {
   return (
     <div>
       <ClockHand name='hour-hand' />
@@ -8,6 +9,6 @@ const ClockHands = () => {
       <ClockHand name='second-hand' />
     </div>
   );
-};
+}, []);
 
 export default ClockHands;

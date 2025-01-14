@@ -1,0 +1,21 @@
+main {
+    text-align: center;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+input[type="button"] {
+    background-color: aqua;
+    border: 0.1rem solid black;
+    margin-inline: 0.25rem;
+    border-radius: 0.5rem;
+    font-size: medium;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+}
+
+section {
+    padding-block: 0.5rem;
+}

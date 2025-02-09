@@ -1,0 +1,27 @@
+#count {
+    font-size: xx-large;
+    margin: auto;
+}
+
+section[class="counter"] {
+    text-align: center;
+}
+
+section > * {
+    padding-block: 0.5rem;
+}
+
+.buttons > * , .resetButton {
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.buttons > * {
+    padding: 0.5rem;
+    padding-inline: 1rem;
+}
+
+.resetButton {
+    padding: 0.75rem;
+}

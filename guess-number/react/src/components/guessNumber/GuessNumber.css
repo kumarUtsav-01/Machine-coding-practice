@@ -1,0 +1,29 @@
+.guessNumber {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.guessNumber > form, .guessNumber > form > label {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    width: 25%;
+    font-size: large;
+    align-self: center;
+}
+
+button {
+    margin-inline: 0.25rem;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+button:nth-child(2) {
+    font-size: large;
+    background-color: aqua;
+}

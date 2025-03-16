@@ -1,0 +1,8 @@
+section {
+    text-align: center;
+}
+
+section > input {
+    font-size: large;
+    margin-block: 1rem;
+}
